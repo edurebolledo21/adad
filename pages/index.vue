@@ -1,10 +1,11 @@
 <template>
   <div>
     <Navbar />
-    <div class="h-40"></div>
-    <!-- <Slideheader /> -->
+
+    <SwiperSlider> </SwiperSlider>
+
     <div
-      class="flex w-full m-0 justify-center px-16 py-24 text-esprilca-700 gap-16"
+      class="flex w-full m-0 justify-around px-16 py-24 text-esprilca-700 gap-4"
     >
       <section class="flex flex-col gap-9">
         <h1 class="uppercase text-4xl font-bold">Sobre nosotros</h1>
@@ -24,7 +25,7 @@
           alt=""
         />
       </section>
-      <section class="flex flex-col gap-8 w-1/2 text-base">
+      <section class="flex flex-col gap-8 w-[55%] text-base">
         <div class="flex flex-col gap-4">
           <h3 class="text-lg font-bold">
             GRUPO ESPRILCA, INNOVACIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO. SOMOS
